@@ -1,0 +1,6 @@
+ibm-watsonx-ai
+gradio
+pypdf
+plotly
+numpy
+python-dotenv
