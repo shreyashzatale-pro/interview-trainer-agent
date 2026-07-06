@@ -46,3 +46,4 @@ All 9 notebook cells have been merged into one script: **`app.py`**.
 - If your watsonx.ai project doesn't have `meta-llama/llama-3-3-70b-instruct` enabled, or you'd rather use a Granite chat model, change `GEN_MODEL_ID` near the top of `app.py`.
 - The knowledge base (`KNOWLEDGE_BASE` list) is plain Python — extend it with more roles/questions any time.
 - Resume upload requires a PDF; text is parsed with `pypdf`.
+# interview-trainer-agent
