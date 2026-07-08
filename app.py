@@ -14,16 +14,16 @@ import os
 import re
 import time
 
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 
 # ---------------------------------------------------------------------------
 # Load credentials from environment (.env file) instead of hardcoding them
 # ---------------------------------------------------------------------------
 load_dotenv()
 
-WATSONX_APIKEY = os.getenv("YPSJiVAo6R8M0TAptuuOUgonFkN5TeLxdwU1C5iCLs4u")
+WATSONX_APIKEY = os.getenv("Upload_the_API_Key")
 WATSONX_URL = os.getenv("WATSONX_URL", "https://eu-gb.ml.cloud.ibm.com")
-WATSONX_PROJECT_ID = os.getenv("083d62de-9681-4ff0-975d-46b782dd2b13")
+WATSONX_PROJECT_ID = os.getenv("Upload_the_Project_ID")
 
 if not WATSONX_APIKEY or not WATSONX_PROJECT_ID:
     raise SystemExit(
