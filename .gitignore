@@ -13,3 +13,8 @@ build/
 __pycache__/
 *.pyc
 data/chroma_db/
+.venv/
+.env
+__pycache__/
+*.pyc
+data/chroma_db/
